@@ -1,0 +1,12 @@
+<ul>
+      {{#each restaurants}}
+      <li>
+        <a href="/{{ this._id}}">{{ this.name}}<span>{{ this.description }}</span></a> |
+        <a href="/{{ this._id}}/edit">Edit</a> |
+        <a href="/{{ this._id}}/delete">Delete</a>
+      </li>
+      {{/each }}
+    </ul>
+  </div>
+  <div id="map"></div>
+<div id="map"></div>
